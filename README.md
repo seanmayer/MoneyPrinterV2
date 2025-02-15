@@ -41,13 +41,14 @@ cd MoneyPrinterV2
 # Copy Example Configuration and fill out values in config.json
 cp config.example.json config.json
 
-# Create a virtual environment
-python -m venv venv
+# Create a Python 3.9 virtual environment (ensure you have Python 3.9 installed)
+# Replace `python3.9` with the path to your Python 3.9 interpreter if needed
+python3.9 -m venv venv
 
-# Activate the virtual environment - Windows
-.\venv\Scripts\activate
+# Activate the virtual environment - Windows:
+venv\Scripts\activate
 
-# Activate the virtual environment - Unix
+# Activate the virtual environment - Unix:
 source venv/bin/activate
 
 # Install the requirements
